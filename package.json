@@ -1,0 +1,17 @@
+{
+  "name": "js-obfuscate",
+  "version": "1.0.0",
+  "description": "JavaScript-code-confuse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Felix"
+  ],
+  "author": "FelixZFB",
+  "license": "ISC",
+  "devDependencies": {
+    "javascript-obfuscator": "^1.4.0"
+  }
+}
