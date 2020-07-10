@@ -12,7 +12,7 @@ const code =
 // 创建一个options变量，定义混淆选项，是一个 Object 对象
 // 使用了控制流扁平化的选项，打乱函数原有代码执行流程及函数调用关系，使代码逻变得混乱无序，降低代码可读性
 const options = {
-   compact: false,  // 代码压缩一行，默认是true,此处改为false，不压缩一行
+   compact: true,  // 代码压缩一行，默认是true,此处改为false，不压缩一行
 };
 
 // 引入了 javascript-obfuscator 库
