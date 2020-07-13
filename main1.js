@@ -2,17 +2,18 @@
 
 
 // 创建一个code变量，里面的字符串就是要混淆的js代码
+// 多段代码使用 + 号链接(python中语法书写)，代码末尾要加上换行符，单引号要加上转移符，不然会报错
 const code =
     "let x = \'1\' + 1\n"
     +
-    "console.log(\'x\', x)"
+    "console.log(\'x:\', x)"
 ;
 
 // 创建一个options变量，定义混淆选项，是一个 Object 对象
 // controlFlowFlattening控制流扁平化的选项，打乱函数原有代码执行流程及函数调用关系，使代码逻变得混乱无序，降低代码可读性
 const options = {
    compact: false,  // 代码压缩一行，默认是true,此处改为false，不压缩一行
-   controlFlowFlattening: true,
+   controlFlowFlattening: true, // 默认开启，设置true或false没啥区别，打乱函数原有代码执行流程及函数调用关系
 };
 
 // 引入了 javascript-obfuscator 库

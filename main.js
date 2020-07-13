@@ -4,7 +4,7 @@
 // let 定义局部变量，函数内部定义的，对函数外部不产生影响
 // const 定义的变量，必须有初始化值，不然会报错
 
-// main1.js main2.js  就是用了const
+// main1.js main2.js  就是用了 const 定义变量
 
 
 let x = '1' + 1;
