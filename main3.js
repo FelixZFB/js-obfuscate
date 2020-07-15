@@ -13,6 +13,7 @@ const code =
 // 创建一个options变量，定义混淆选项，是一个 Object 对象
 // 使用了控制流扁平化的选项，打乱函数原有代码执行流程及函数调用关系，使代码逻变得混乱无序，降低代码可读性
 const options = {
+   stringArray: true, // 字符串混淆，默认为true，如果false，就显示原始代码，可以这只false，输出结果就是上面原始代码，数字1，用的机器编码
    compact: false,  // 代码压缩一行，默认是true,此处改为false，不压缩一行
    identifierNamesGenerator: 'mangled', // 变量名替换为普通字符，参数默认为 hexadecimal 替换为 16 进制形式的字符串
 };
