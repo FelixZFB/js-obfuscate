@@ -1,0 +1,19 @@
+// main1.js 中代码混合后的代码
+
+const _0x3177 = ['log'];
+(function (_0x596200, _0x31779a) {
+    const _0x314d86 = function (_0xe24e1d) {
+        while (--_0xe24e1d) {
+            _0x596200['push'](_0x596200['shift']());
+        }
+    };
+    _0x314d86(++_0x31779a);
+}(_0x3177, 0x1db));
+const _0x314d = function (_0x596200, _0x31779a) {
+    _0x596200 = _0x596200 - 0x0;
+    let _0x314d86 = _0x3177[_0x596200];
+    return _0x314d86;
+};
+let x = '1' + 0x1;
+console[_0x314d('0x0')]('x:', x);
+
